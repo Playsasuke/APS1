@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br">
+<head>
+  <title>Pontos de coleta — E-Lixo Consciente</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <div class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="brand-badge"></div>
+        <div>
+          <p class="brand-title"><strong>APS — Programação Web Responsiva</strong></p>
+          <p class="brand-sub">Consumo consciente &amp; combate ao e-lixo</p>
+
+        </div>
+      </div>
+
+      <div class="nav" aria-label="Navegação principal">
+        <a href="index.xhtml">Início</a>
+        <a href="elixo.xhtml">O que é e-lixo</a>
+        <a href="consumo.xhtml">Consumo consciente</a>
+        <a href="descarte.xhtml">Descarte correto</a>
+        <a href="pontos.xhtml" aria-current="page">Pontos de coleta</a>
+        <a href="sobre.xhtml">Sobre</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="conteudo" data-page="pontos">
+    <div class="hero">
+      <span class="badge">Funcionalidade</span>
+      <h1>Pontos de coleta e iniciativas (com filtro)</h1>
+      <p>
+        Abaixo há uma lista por categorias (exemplos). No seu trabalho escrito, você pode explicar
+        que os cards representam “tipos de pontos” e que o filtro ajuda a organizar a busca.
+      </p>
+
+      <div class="filters">
+        <div>
+          <label for="filterCategory">Categoria</label><br />
+          <select id="filterCategory" class="select">
+            <option value="all">Todas</option>
+            <option value="varejo">Varejo / Fabricantes</option>
+            <option value="ecoponto">Ecopontos municipais</option>
+            <option value="cooperativa">Cooperativas / ONGs</option>
+            <option value="baterias">Pilhass / Baterias</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="filterSearch">Buscar</label><br />
+          <input id="filterSearch" class="input" type="text" value="" placeholder="Ex.: baterias, ecoponto, ONGs" />
+        </div>
+      </div>
+    </div>
+
+    <div class="grid grid-3">
+      <div class="card" data-card="1" data-category="varejo">
+        <h3>Varejo / Fabricantes</h3>
+        <p>
+          Muitos fabricantes e lojas possuem programas de recebimento (logística reversa).
+          Verifique regras: tipos aceitos, condição, e exigência de acessórios.
+        </p>
+        <p style="margin-top:8px;"><span class="badge">Categoria: varejo</span></p>
+      </div>
+
+      <div class="card" data-card="1" data-category="ecoponto">
+        <h3>Ecoponto Municipal</h3>
+        <p>
+          Pontos públicos de entrega voluntária. Podem aceitar eletroeletrônicos e outros recicláveis.
+          Normalmente possuem restrições de volume e tipo de resíduo.
+        </p>
+        <p style="margin-top:8px;"><span class="badge">Categoria: ecoponto</span></p>
+      </div>
+
+      <div class="card" data-card="1" data-category="cooperativa">
+        <h3>Cooperativas / ONGs</h3>
+        <p>
+          Cooperativas de reciclagem e iniciativas sociais podem receber equipamentos para triagem,
+          reutilização ou encaminhamento a recicladores.
+        </p>
+        <p style="margin-top:8px;"><span class="badge">Categoria: cooperativa</span></p>
+      </div>
+
+      <div class="card" data-card="1" data-category="baterias">
+        <h3>Coleta de Pilhas e Baterias</h3>
+        <p>
+          Pilhas e baterias exigem atenção. Procure coletores específicos em mercados, farmácias
+          ou programas dedicados.
+        </p>
+        <p style="margin-top:8px;"><span class="badge">Categoria: baterias</span></p>
+      </div>
+
+      <div class="card" data-card="1" data-category="varejo">
+        <h3>Assistência técnica / Recondicionamento</h3>
+        <p>
+          Antes de descartar, avaliar reparo pode reduzir e-lixo. Se não houver conserto,
+          alguns serviços encaminham o resíduo corretamente.
+        </p>
+        <p style="margin-top:8px;"><span class="badge">Categoria: varejo</span></p>
+      </div>
+
+      <div class="card" data-card="1" data-category="cooperativa">
+        <h3>Campanhas temporárias</h3>
+        <p>
+          Eventos de coleta (em escolas, shoppings ou universidades) podem acontecer em datas específicas.
+          Inclua no seu texto a importância de divulgação e educação ambiental.
+        </p>
+        <p style="margin-top:8px;"><span class="badge">Categoria: cooperativa</span></p>
+      </div>
+    </div>
+
+    <div class="site-footer">
+      <div class="container">
+        <p>Conteúdo educativo — navegue pelo menu para ver guias e recursos.</p>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+</html>

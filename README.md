@@ -28,8 +28,6 @@ Site educativo desenvolvido como parte das Atividades Práticas Supervisionadas 
 
 **[Acessar o site](https://playsasuke.github.io/APS1/)**
 
-**[Consultar código-fonte](https://github.com/Playsasuke/APS1)**
-
 ## Execução local
 
 Baixe o repositório em **Code → Download ZIP**, extraia os arquivos e abra `index.html` no navegador.
